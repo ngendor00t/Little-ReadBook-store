@@ -1,3 +1,14 @@
-fetch ("https://poetrydb.org/title/Ozymandias/lines.json")
+
+
+
+fetch ("https://poetrydb.org/author,title/Shakespeare;Sonnet")
 .then(response =>response.json())
 .then(data => console.log(data))
+
+
+
+
+
+
+
+
